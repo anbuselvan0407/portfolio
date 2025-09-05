@@ -1,0 +1,124 @@
+@import "../../app.scss";
+
+
+.hero {
+	height: calc(100vh - 100px);
+	overflow: hidden;
+	//background: inear-gradient(#0c0c1d ,#111132 );
+	background: repeating-linear-gradient(1800deg, #23236102 16%, #21215a0a 33%);
+	position: relative;
+
+	.wrapper {
+		max-width: 900px;
+		margin: auto;
+
+		height: 100%;
+
+		.textContainer {
+			width: 50%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 30px;
+
+			@include mobile {
+				width: 100%;
+				height: 50%;
+				gap: 20px;
+				align-items: center;
+				text-align: center;
+			}
+
+			h2 {
+				color: rebeccapurple;
+				font-size: 30px;
+				letter-spacing: 8px;
+				cursor: default;
+			}
+
+			h1 {
+				font-size: 60px;
+				cursor: default;
+
+				@include mobile {
+					font-size: 34px;
+				}
+			}
+
+			.buttons {
+
+				button {
+
+					z-index: 5;
+					padding: 10px 20px;
+					border: 1px solid white;
+					background-color: transparent;
+					border-radius: 10px;
+					margin-right: 20px;
+					color: white;
+					cursor: pointer;
+					font-weight: 300;
+					transition: 1.5s;
+
+					&:hover {
+
+						border: 1px solid rgb(50, 226, 50);
+						box-shadow: inset 400px 0 0 0 #28a840;
+
+					}
+				}
+			}
+
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+
+	}
+
+	.imageContainer {
+		height: calc(100vh - 100px);
+		position: absolute;
+		right: 80px;
+		bottom: 0;
+		z-index: 3;
+		
+		@include mobile {
+			height: 50%;
+			width: 100%;
+			bottom: 0;
+			top: unset;
+			right: 24%;
+		}
+
+		img {
+			height: calc(100vh - 100px);
+			width: 550px;
+			object-fit: cover;
+			
+			@include mobile {
+				height: calc(100vh - 200px);
+				width: 550px;
+				object-fit: contain;
+			}
+		}
+
+	}
+
+	.slidieingTextContainer {
+		overflow-x: wrap;
+		scrollbar-width: none;
+		cursor: default;
+		font-size: 50vh;
+		position: absolute;
+		z-index: -1;
+		bottom: -60px;
+		white-space: nowrap;
+		color: #ffffff09;
+		width: 50%;
+		font-weight: 600;
+
+	}
+}

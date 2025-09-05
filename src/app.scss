@@ -1,0 +1,88 @@
+html{
+    scroll-snap-type:y mandatory;
+    
+    scroll-behavior:smooth;
+    
+    ::-webkit-scrollbar { 
+        width: 8px; 
+        
+    } 
+    ::-webkit-scrollbar-track { 
+        background: rgb(57, 62, 62); 
+        border-radius: 1px;
+    } 
+    ::-webkit-scrollbar-thumb { 
+        background: #928787; 
+        border-radius: 20px;
+        
+    } 
+    ::-webkit-scrollbar-thumb:hover { 
+        background: #a4a0a0c2; 
+    } 
+    ::-webkit-scrollbar-button { 
+        display: none; 
+    } 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans",sans-serif;
+}
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+    
+}
+@mixin mobile{
+    @media (max-width:738px) {
+        @content;
+    }
+}
+@mixin tablet{
+    @media (max-width:1024) {
+        @content;
+    }
+}
+
+//-------------------------------------
+/* .scroll-container { 
+    height: 100vh; 
+    overflow-y: scroll; 
+} 
+
+.scroll-container::-webkit-scrollbar { 
+    width: 8px; 
+    will-change: scroll-position;
+} 
+
+.scroll-container::-webkit-scrollbar-track { 
+    background: rgb(91, 191, 196); 
+    
+} 
+
+.scroll-container::-webkit-scrollbar-thumb { 
+    background: #928787; 
+    border-radius: 10px;
+    
+} 
+
+.scroll-container::-webkit-scrollbar-thumb:hover { 
+    background: #ef8888; 
+} 
+
+.scroll-container::-webkit-scrollbar-button { 
+    display: none; 
+} 
+ */

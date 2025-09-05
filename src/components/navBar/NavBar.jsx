@@ -14,17 +14,14 @@ const NavBar = () => {
 
         >Portfolio</motion.span>
         <div className="social">
-          <motion.a href="https://www.instagram.com/deni__00_1/" target='blank'
+          <motion.a href="https://www.instagram.com/anna_anbuselvan/" target='blank'
             whileHover={{ y: -3, scaleX: 1.1, scaleY: 1.1, transition: { duration: 0.3 } }}>
             <img src="./instagram.png" alt="" />
           </motion.a>
-          <motion.a target='blank' href="https://www.facebook.com/Denikanth12/" whileHover={{ y: -3, scaleX: 1.1, scaleY: 1.1, transition: { duration: 0.3 } }} >
+          <motion.a target='blank' href="https://www.facebook.com/share/19cVFX3RG8/" whileHover={{ y: -3, scaleX: 1.1, scaleY: 1.1, transition: { duration: 0.3 } }} >
             <img src="./facebook.png" alt="" />
           </motion.a>
-          <motion.a target='blank' href="https://x.com/denikanth72611" whileHover={{ y: -3, scaleX: 1.1, scaleY: 1.1, transition: { duration: 0.3 } }}>
-            <img src="./twitter.png" alt="" />
-          </motion.a>
-          <motion.a target='blank' href="https://www.linkedin.com/in/denikanth-r-4647a31b1/" whileHover={{ y: -3, scaleX: 1.1, scaleY: 1.1, transition: { duration: 0.3 } }}>
+          <motion.a target='blank' href="https://www.linkedin.com/in/anbu-selvan546?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" whileHover={{ y: -3, scaleX: 1.1, scaleY: 1.1, transition: { duration: 0.3 } }}>
             <img src="./linked.png" alt="" />
           </motion.a>
         </div>

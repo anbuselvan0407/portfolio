@@ -66,9 +66,9 @@ const About = () => {
                      <img src="./photoclg.jpg" alt="" />
                   </div>
                   <div className="textContainer">
-                     <p>Passionate about full-stack development, I bring a solid foundation in HTML, CSS, and JavaScript, leveraging these skills to create engaging and responsive user interfaces. My proficiency in React.js allows me to craft dynamic frontend experiences that prioritize user interaction and satisfaction.
+                     <p>Passionate about full-stack development, I bring a strong foundation in HTML, CSS, and JavaScript, using these skills to craft engaging and responsive user interfaces. My proficiency in Angular allows me to build dynamic, component-driven frontend experiences that focus on performance, reusability, and seamless user interaction.
                      </p>
-                     <p>On the backend, I excel in Node.js and Express, implementing robust server-side solutions that support scalable applications. My knowledge extends to database management using MongoDB and SQL, ensuring efficient data storage and retrieval mechanisms that uphold application performance and reliability
+                     <p>On the backend, I excel in Node.js with Express and Nest.js, building robust, scalable server-side applications and RESTful APIs. I have practical experience integrating backend logic with frontend frameworks to deliver end-to-end solutions. My skills also extend to database management using MongoDB, MySQL and PostgreSQL ensuring efficient, secure, and reliable data handling.
                      </p>
 
                   </div>

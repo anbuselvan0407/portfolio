@@ -108,8 +108,8 @@ const Skills = () => {
 
 					<div className="skillbar" >
 						<div className="skillcard" >
-						<div style={{ width: "100%", height: "100%" }} >
-								<SkillCard skill={"Spring Boot "} color={"#63e649"} percentage={"75%"} move={false} />
+							<div  style={{ width: "100%", height: "100%" }}>
+								<SkillCard skill={"Angular"} color={"#00FFF3"} percentage={"70%"} move={false} />
 							</div>
 							
 							<div style={{ width: "100%", height: "100%" }} >
@@ -124,8 +124,8 @@ const Skills = () => {
 							<div  style={{ width: "100%", height: "100%" }} >
 								<SkillCard skill={"Node.js"} color={"#78d052c6"} percentage={"90%"} move={false} />
 							</div>
-							<div  style={{ width: "100%", height: "100%" }}>
-								<SkillCard skill={"React js"} color={"#00FFF3"} percentage={"70%"} move={false} />
+						<div style={{ width: "100%", height: "100%" }} >
+								<SkillCard skill={"Nest.js"} color={"#63e649"} percentage={"75%"} move={false} />
 							</div>
 
 						</div>

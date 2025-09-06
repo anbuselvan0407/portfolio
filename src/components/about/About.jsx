@@ -63,7 +63,7 @@ const About = () => {
             <div className="container" >
                <div className="textImgContainer" >
                   <div className="imgContainer">
-                     <img src="./profile.png" alt="" />
+                     <img src="./photoclg.jpg" alt="" />
                   </div>
                   <div className="textContainer">
                      <p>Passionate about full-stack development, I bring a solid foundation in HTML, CSS, and JavaScript, leveraging these skills to create engaging and responsive user interfaces. My proficiency in React.js allows me to craft dynamic frontend experiences that prioritize user interaction and satisfaction.

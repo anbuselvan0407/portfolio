@@ -26,7 +26,7 @@ const About = () => {
             <motion.div className="container"  variants={variants} >
                <motion.div className="textImgContainer" variants={variants}>
                   <motion.div className="imgContainer" variants={variants}>
-                     <img src="./photoclg.jpg" alt="" />
+                     <img src="./PHOTO.jpg" alt="" />
                   </motion.div>
                   <motion.div className="textContainer" variants={variants}>
                      <motion.p variants={variants}>Passionate about full-stack development, I bring a strong foundation in HTML, CSS, and JavaScript, using these skills to craft engaging and responsive user interfaces. My proficiency in Angular allows me to build dynamic, component-driven frontend experiences that focus on performance, reusability, and seamless user interaction.
@@ -63,7 +63,7 @@ const About = () => {
             <div className="container" >
                <div className="textImgContainer" >
                   <div className="imgContainer">
-                     <img src="./photoclg.jpg" alt="" />
+                     <img src="./PHOTO.jpg" alt="" />
                   </div>
                   <div className="textContainer">
                      <p>Passionate about full-stack development, I bring a strong foundation in HTML, CSS, and JavaScript, using these skills to craft engaging and responsive user interfaces. My proficiency in Angular allows me to build dynamic, component-driven frontend experiences that focus on performance, reusability, and seamless user interaction.
